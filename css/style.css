@@ -5,10 +5,10 @@ body{
   padding: 0;
   margin:0;
   background: rgba(0,0,0 0.6);
-
- display: flex;
-min-height: 100vh;
-flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 
 }
 
@@ -19,6 +19,8 @@ header{
   color: orange;
   background-color:
 }
+
+
 
 .showcaseimg{
   width: 100%;
@@ -54,25 +56,6 @@ header{
 }
 
 
-h1 {
-
-  text-align: center;
-  margin-left: 1rem;
-}
-
-
-h2 {
-  text-align: center;
-  font-size: 1.5rem;
-
-}
-
-h4{
-  text-align: center;
-  justify-content: center;
-  font-size: 2rem;
-  text-decoration: underline;
-}
 
 
 
@@ -90,6 +73,7 @@ h4{
   max-height: 40rem;
   border:solid;
   border-radius:50%;
+
 }
 .archer{
   width: 50%;
@@ -120,6 +104,18 @@ h4{
   justify-content: center;
 
 
+}
+
+.button2{
+
+  margin-bottom: 20px;
+
+}
+
+
+.Returnbutton{
+  background-color: #ff884d;
+  color:white;
 }
 
 .showcaseimg{
@@ -168,6 +164,7 @@ border-bottom: orange;
   text-align: center;
   justify-content: center;
   color: orange;
+
   border-bottom: 5px solid orange;
 }
 
@@ -202,7 +199,7 @@ border-bottom: orange;
 
 .footer1 {
   border-top: 4px solid orange;
-  
+
   display: grid;
   grid-template-columns: repeat(4, 20% 20% 20% 60%);
 
@@ -288,7 +285,7 @@ input[type=text], input[type=submit]{
   width: 40%;
   height: 40px;
   display: inline-block;
-  border: 1px solid orange;
+  border: 3px solid orange;
   box-sizing: border-box;
 
 
@@ -316,7 +313,24 @@ input[type=submit]
   opacity: inherit;
 }
 
+.cardspic{
+  width: 30%;
+
+
+}
+
+.cardmat{
 
 
 
-@media(max-width 2000px)
+
+}
+.heading5{
+  font-size: 1.3rem;
+  text-align: center;
+  justify-content: center;
+  color: orange;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+@media(max-width 5000px)
